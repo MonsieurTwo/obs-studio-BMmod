@@ -122,7 +122,7 @@ DeckLinkDeviceInstance::DeckLinkDeviceInstance(DecklinkBase *decklink_,
 {
 	currentPacket.samples_per_sec = 48000;
 	currentPacket.speakers = SPEAKERS_STEREO;
-	currentPacket.format = AUDIO_FORMAT_16BIT;
+	currentPacket.format = AUDIO_FORMAT_32BIT;
 }
 
 DeckLinkDeviceInstance::~DeckLinkDeviceInstance()
